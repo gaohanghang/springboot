@@ -10,5 +10,5 @@ public class UploadPageController {
     public String uploadPage() {
         return "uploadPage";
     }
-    
+
 }
