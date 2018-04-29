@@ -17,7 +17,7 @@ public class CategoryController {
     @Autowired CategoryMapper categoryMapper;
 
     @RequestMapping("/addCategory")
-    public String listCategory(Category c) throws Exception {
+    public String addCategory(Category c) throws Exception {
         categoryMapper.save(c);
         return "redirect:listCategory";
     }
